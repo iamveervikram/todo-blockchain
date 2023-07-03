@@ -1,0 +1,106 @@
+.descFootMain {
+}
+
+.trans {
+  display: flex;
+  justify-content: space-between;
+  /* flex-wrap: wrap; */
+}
+.trans > button {
+  padding: 5px 0px;
+  border-radius: 10px;
+  border-color: transparent;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.trans > button > p {
+  font-family: Poppins;
+  font-weight: 600;
+}
+.tb1 {
+  background-color: #353945;
+  flex: 50%;
+  /* max-width: 50%; */
+}
+.tb1 > p {
+  color: white;
+  margin: 0;
+  font-size: 0.9rem;
+  
+}
+.nIconSmall {
+  background-color: #3772ff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  text-align: center;
+  line-height: 20px;
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.tb2 {
+  background-color: #a3e3ff;
+  flex: 50%;
+  /* max-width: 50%; */
+}
+.tb2 > p {
+  color: #3772ff;
+  margin: 0;
+  font-size: 0.9rem;
+  
+}
+.preference {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.preference > button {
+  background-color: transparent;
+  border-color: transparent;
+  margin: 5px;
+}
+
+.toggleButton {
+  height: 20px;
+  width: 20px;
+  color: var(--wh-btn-clrS);
+  background-color: gray !important;
+  border-color: gray;
+  border-radius: 20px;
+  width: auto;
+  padding: 14px 8px;
+  display: flex;
+  align-items: center;
+}
+
+.toggleButton > div {
+  margin: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .tb1 > p {
+    font-size: 0.7rem;
+  }
+  .tb2 > p {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .tb1 {
+    max-width: 50%;
+  }
+
+  .tb2 {
+    max-width: 50%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .trans {
+    flex-wrap: wrap;
+  }
+}

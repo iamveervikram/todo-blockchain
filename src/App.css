@@ -1,0 +1,137 @@
+.App {
+  display: flex;
+  background-color: var(--bg-clr);
+  height: 100vh;
+  color: white;
+}
+
+.desc {
+  border-right: 3px solid gray;
+  transition: 0.1s ease-in;
+}
+
+.main {
+}
+
+@media only screen and (max-width: 730px) {
+  .desc {
+    flex: 30%;
+    max-width: 30%;
+  }
+
+  .main {
+    flex: 70%;
+    max-width: 70%;
+  }
+}
+
+@media only screen and (max-width: 754px) {
+  .desc {
+    flex: 40%;
+    max-width: 40%;
+  }
+
+  .main {
+    flex: 60%;
+    max-width: 60%;
+  }
+}
+
+@media only screen and (min-width: 730px) {
+  .desc {
+    flex: 20%;
+    max-width: 20%;
+  }
+
+  .main {
+    flex: 80%;
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .desc {
+    flex: 18%;
+    max-width: 18%;
+  }
+
+  .main {
+    flex: 82%;
+    max-width: 82%;
+  }
+}
+@media only screen and (min-width: 1100px) {
+  .desc {
+    flex: 16%;
+    max-width: 16%;
+  }
+
+  .main {
+    flex: 84%;
+    max-width: 84%;
+  }
+}
+.dark-theme {
+  --bg-clr: black;
+  --wh-txt-clr: white;
+  --wh-btn-clr: white;
+  --btn-hvr: #3772ff;
+}
+
+.light-theme {
+  --bg-clr: white;
+  --wh-txt-clr: #3772ff;
+  --wh-btn-clr: black;
+  --btn-hvr: #3772ff;
+}
+
+@media only screen and (min-width: 1200px) {
+  .dark-theme {
+    --mq-wd: 40px;
+    --mq-ht: 40px;
+    --mq-fs: 1.3rem;
+    --mq-lh: 40px;
+    --mq-m: 0;
+  }
+  .light-theme {
+    --mq-wd: 40px;
+    --mq-ht: 40px;
+    --mq-fs: 1.3rem;
+    --mq-lh: 40px;
+    --mq-m: 0;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .dark-theme {
+    --mq-wd: 30px;
+    --mq-ht: 30px;
+    --mq-fs: 1rem;
+    --mq-lh: 30px;
+    --mq-m: 0;
+  }
+  .light-theme {
+    --mq-wd: 30px;
+    --mq-ht: 30px;
+    --mq-fs: 1rem;
+    --mq-lh: 30px;
+    --mq-m: 0;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+  .dark-theme {
+    --mq-wd: 25px;
+    --mq-ht: 25px;
+    --mq-fs: 0.9rem;
+    --mq-lh: 25px;
+    --mq-m: 0;
+  }
+  .light-theme {
+    --mq-wd: 25px;
+    --mq-ht: 25px;
+    --mq-fs: 0.9rem;
+    --mq-lh: 25px;
+    --mq-m: 0;
+  }
+}

@@ -1,0 +1,83 @@
+.mainConRightMain > div {
+    margin: 5px;
+  }
+  .editBack {
+  }
+  .editBack > button {
+    display: flex;
+    align-items: center;
+    color: var(--wh-txt-clr);
+    background-color: transparent;
+    border-color: transparent;
+  }
+  .editBack > button:hover {
+    color: #3772ff;
+  }
+  .editBack > button > p {
+    margin: 0 0 0 10px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  .editHead {
+  }
+  
+  .editHead>input {
+    width: 100%;
+    background-color: #242731;
+    color: #a6a6a6;
+    border-color: transparent;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+  
+  input:focus {
+    outline: none;
+    border: 1px solid #636881;
+    border-radius: 5px;
+  }
+  .editContent {
+  }
+  textarea {
+    resize: none;
+    width: 100%;
+    background-color: #242731;
+    color: #808191;
+    border-color: transparent;
+    border-radius: 10px;
+    padding: 12px 20px;
+    font-family: Inter;
+    font-weight: 600;
+  }
+  textarea::-webkit-scrollbar {
+    display: none;
+  }
+  textarea:focus {
+    outline: none;
+    border: 1px solid #636881;
+    border-radius: 10px;
+  }
+  .editSave {
+  }
+  .editSave > button {
+    border-color: transparent;
+    background-color: #3772ff;
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+  }
+  .editSave > button:hover{
+      background-color: #3773ff9c;
+  }
+  .editSave > button:active{
+      padding:6px 5px ;
+  }
+  .editSave > button > p {
+    margin: 0;
+    font-family: Inter;
+    font-weight: 600;
+  }

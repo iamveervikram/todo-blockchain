@@ -1,0 +1,84 @@
+.descParent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.info {
+  flex: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px 0.25rem;
+  flex-wrap: wrap;
+}
+.name {
+  display: flex;
+  align-items: center;
+  flex: 65%;
+  /* max-width: 65%; */
+}
+
+.nIcon {
+  background-color: #3772ff;
+  border-radius: 50%;
+  width: var(--mq-wd);
+  height: var(--mq-ht);
+  text-align: center;
+  font-size: var(--mq-fs);
+  line-height: var(--mq-lh);
+
+  font-family: Poppins;
+  font-weight: 600;
+}
+
+.userName {
+  font-size: var(--mq-fs);
+
+  font-family: Poppins;
+  font-weight: 600;
+  color: var(--wh-txt-clr);
+}
+
+.sym {
+  flex: 35%;
+  /* max-width: 35%; */
+  display: flex;
+  justify-content: center;
+  border-color: transparent;
+  background-color: transparent;
+}
+.symBtn {
+  height: var(--mq-ht);
+  width: var(--mq-wd);
+  color: var(--wh-btn-clr);
+}
+.symBtn:active {
+  color: var(--btn-hvr);
+}
+.symBtn:hover {
+  color: var(--btn-hvr);
+}
+
+.list {
+  flex: 80%;
+}
+.foot {
+  flex: 10%;
+}
+
+@media only screen and (min-width: 700px) {
+  .name {
+    max-width: 65%;
+  }
+
+  .sym {
+    max-width: 35%;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  .name {
+    justify-content: center;
+  }
+}

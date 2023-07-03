@@ -1,0 +1,77 @@
+/* .cardMain {
+} */
+.cardMain>div{
+  box-sizing: border-box;
+  margin: 5px;
+}
+.cardHeading {
+  display: flex;
+  align-items: center;
+}
+.cardHeading > input {
+  width: 300px;
+  background-color: #242731;
+  color: white;
+  border-color: transparent;
+  border-radius: 10px;
+  padding: 12px 20px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.addCard {
+  width: 300px;
+  border-color: transparent;
+  border-radius: 10px;
+  padding: 12px 20px;
+  background-color: #242731;
+
+
+
+}
+.addCard:active{
+  border-left: 4px solid blue;
+
+}
+.addCardHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hLeft {
+  display: flex;
+  align-items: center;
+
+}
+.hLeft>p{
+  margin-left: 5px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #6e6e6e;
+}
+.hRight {
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.hRight *:hover{
+background-color: #3773ff9c !important;
+}
+
+.hRight:active{
+  padding:6px 5px ;
+}
+/* .addCardContent {
+} */
+.addCardContent>p{
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #808191;
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.addCardContent>p::-webkit-scrollbar {
+  display: none;
+}
